@@ -12,6 +12,10 @@ public class LinearDynamics {
         this.mFreeBody = forces;
     }
 
+    public LinearDynamics () {
+        this.mFreeBody = new ArrayList<Translation2d>();
+    }
+
     public Translation2d netForce (ArrayList<Translation2d> forces) {
         if(forces.size() != 1) { //we add the last force in the list to the first one, until we only have 1 force left
             forces.get(0).add(forces.get(forces.size()-1));
