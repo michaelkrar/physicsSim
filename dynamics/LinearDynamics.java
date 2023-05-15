@@ -30,4 +30,8 @@ public class LinearDynamics {
         return netForce(mFreeBody);
     }
 
+    public Translation2d netAccel (double mass) { // i dont like how i have to get mass from the encapsulating class
+        return netForce().scale(1/mass);
+    }
+
 }
