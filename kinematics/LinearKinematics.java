@@ -75,6 +75,10 @@ public class LinearKinematics {
         updatePosition(dt);
     }
 
+    public void setAcceleration (Translation2d accel) {
+        mAcceleration = accel;
+    }
+
 
 
 }
