@@ -26,17 +26,18 @@ public class Main {
         f.init();
 
         for(int i = 0; i<100000; i++) {
-            Thread.sleep(1000);
-            if(i==10){
+            Thread.sleep(100);
+            if(i==100){
                 block.linearDynamics().addForce(new Translation2d(0,10));
                 System.out.println("I started applying a constant force of 10 N in +y");
             }
-            if(i==50){
+            if(i==200){
                 block.linearDynamics().removeAllForces();
-                System.out.println("I suddenly stopped applying the force");
+                block.linearDynamics().addForce(new Translation2d(10,0));
+                System.out.println("I suddenly stopped applying the force and applied this new random one");
 
             }
-            block.loop(1);
+            block.loop(.1);
             f.drawObject(block);
             System.out.println(block.linearKinematics().position().x() + " " +block.linearKinematics().position().y());
         }

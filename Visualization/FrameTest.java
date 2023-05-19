@@ -39,6 +39,6 @@ public class FrameTest extends JFrame{
     public void drawObject (Object2d obj) {
         Graphics g = getGraphics();
         Translation2d mPos = obj.linearKinematics().position();
-        g.drawRect((int)(mPos.x()*.1), (int)(mPos.y()*.1), 5,5);
+        g.drawRect((int)(mPos.x()*.4), (int)(mPos.y()*.4), 50,10);
     }
 }
