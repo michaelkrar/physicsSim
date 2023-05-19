@@ -1,8 +1,8 @@
-package dynamics;
+package src.main.java.org.mike_physics_sim.dynamics;
 
 import java.util.ArrayList;
 
-import geometry.Translation2d;
+import src.main.java.org.mike_physics_sim.geometry.Translation2d;
 
 public class LinearDynamics {
     
