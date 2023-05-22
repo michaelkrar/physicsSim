@@ -1,11 +1,12 @@
+package org.mike_physics_sim;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-import src.main.java.org.mike_physics_sim.Objects.Object2d;
-import src.main.java.org.mike_physics_sim.Visualization.FrameTest;
-import src.main.java.org.mike_physics_sim.dynamics.LinearDynamics;
-import src.main.java.org.mike_physics_sim.geometry.Translation2d;
-import src.main.java.org.mike_physics_sim.kinematics.LinearKinematics;
+import org.mike_physics_sim.Objects.Object2d;
+import org.mike_physics_sim.Visualization.FrameTest;
+import org.mike_physics_sim.dynamics.LinearDynamics;
+import org.mike_physics_sim.geometry.Translation2d;
+import org.mike_physics_sim.kinematics.LinearKinematics;
 
 public class Main {
     public static void main(String[] arg) throws InterruptedException{

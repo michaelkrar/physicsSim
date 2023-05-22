@@ -1,12 +1,16 @@
 package org.mike_physics_sim.dynamics;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
+import org.mike_physics_sim.Objects.Object2d;
 import org.mike_physics_sim.geometry.Translation2d;
 
 public class LinearDynamics {
     
     private ArrayList<Translation2d> mFreeBody;
+
+    // private HashMap<String,Force> m
 
     public LinearDynamics (ArrayList<Translation2d> forces) {
         this.mFreeBody = forces;
@@ -34,7 +38,7 @@ public class LinearDynamics {
     }
 
     public Translation2d netAccel (double mass) { // i dont like how i have to get mass from the encapsulating class
-        return netForce().scale(1/mass);
+        return netForce().scale(1.0/mass);
     }
 
     public void addForce (Translation2d force) {

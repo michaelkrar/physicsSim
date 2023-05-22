@@ -44,4 +44,9 @@ public class Object2d {
     public LinearKinematics linearKinematics () {
         return mLinearKinematics;
     }
+
+    public double mass () {
+        return mMass;
+    }
+
 }
