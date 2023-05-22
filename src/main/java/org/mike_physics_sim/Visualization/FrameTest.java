@@ -1,9 +1,9 @@
-package src.main.java.org.mike_physics_sim.Visualization;
+package org.mike_physics_sim.Visualization;
 
 import javax.swing.JFrame;
 
-import src.main.java.org.mike_physics_sim.Objects.Object2d;
-import src.main.java.org.mike_physics_sim.geometry.Translation2d;
+import org.mike_physics_sim.Objects.Object2d;
+import org.mike_physics_sim.geometry.Translation2d;
 
 import java.awt.Graphics;
 import java.awt.Color;

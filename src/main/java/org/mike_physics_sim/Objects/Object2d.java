@@ -1,8 +1,8 @@
-package src.main.java.org.mike_physics_sim.Objects;
+package org.mike_physics_sim.Objects;
 
-import src.main.java.org.mike_physics_sim.dynamics.LinearDynamics;
-import src.main.java.org.mike_physics_sim.geometry.Translation2d;
-import src.main.java.org.mike_physics_sim.kinematics.LinearKinematics;
+import org.mike_physics_sim.dynamics.LinearDynamics;
+import org.mike_physics_sim.geometry.Translation2d;
+import org.mike_physics_sim.kinematics.LinearKinematics;
 
 public class Object2d {
     

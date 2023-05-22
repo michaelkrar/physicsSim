@@ -1,4 +1,4 @@
-package src.test.java.org.mike_physics_sim;
+package org.mike_physics_sim;
 
 public @interface Test {
 

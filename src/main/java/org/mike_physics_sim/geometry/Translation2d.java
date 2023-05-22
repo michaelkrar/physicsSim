@@ -1,4 +1,4 @@
-package src.main.java.org.mike_physics_sim.geometry;
+package org.mike_physics_sim.geometry;
 
 public class Translation2d {
     private double x;

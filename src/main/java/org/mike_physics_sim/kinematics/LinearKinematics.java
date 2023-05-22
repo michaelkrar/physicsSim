@@ -1,6 +1,6 @@
-package src.main.java.org.mike_physics_sim.kinematics;
+package org.mike_physics_sim.kinematics;
 
-import src.main.java.org.mike_physics_sim.geometry.Translation2d;
+import org.mike_physics_sim.geometry.Translation2d;
 
 public class LinearKinematics {
     private Translation2d mPosition;
